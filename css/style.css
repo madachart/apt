@@ -1,8 +1,8 @@
-.img-div {background-size: auto; background-color: beige; border-bottom-left-radius: 5%;
+.img-div {background-size: auto; background-color: beige; border-bottom-left-radius: 10%;
 
 
 }
-.header{ border: 5px; padding: 10px;
+.header{ border: 5px; padding: 5px; font-style: italic; 
 
 }
 img{width: 100%; height: auto;}
@@ -11,12 +11,12 @@ img {
 }
 
   footer{ text-align: center;
-background-color: lightsalmon;padding: 5px;
+background-color: lightsalmon;padding: 15px; 
 color: white; font-style: italic; font-weight: bolder;
 font-family: 'Times New Roman', Times, serif;}
 
-.header { text-align: center; background-color: burlywood;}
-.footer { border: 5px; padding: 5px;}
+.header { text-align: center; background-color: rgb(235, 202, 173);}
+.footer { border: 5px; padding: 0px; box-sizing: border-box;}
 
 }
   
