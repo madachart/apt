@@ -1,127 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-      * {
-        box-sizing: border-box;
-      }
-      
-      body {
-        margin: 0;
-        font-family: Arial;
-      }
-      
-      /* The grid: Four equal columns that floats next to each other */
-      .column {
-        float: left;
-        width: 25%;
-        padding: 10px;
-      }
-      
-      /* Style the images inside the grid */
-      .column img {
-        opacity: 0.8; 
-        cursor: pointer; 
-      }
-      
-      .column img:hover {
-        opacity: 1;
-      }
-      
-      /* Clear floats after the columns */
-      .row:after {
-        content: "";
-        display: table;
-        clear: both;
-      }
-      
-      /* The expanding image container */
-      .container {
-        position: relative;
-        display: none;
-      }
-      
-      /* Expanding image text */
-      #imgtext {
-        position: absolute;
-        bottom: 15px;
-        left: 15px;
-        color: white;
-        font-size: 20px;
-      }
-      
-      /* Closable button inside the expanded image */
-      .closebtn {
-        position: absolute;
-        top: 10px;
-        right: 15px;
-        color: white;
-        font-size: 35px;
-        cursor: pointer;
-      }
-      </style>
-      </head>
-      <body>
-      
-      <!-- The four columns -->
-      <div class="row">
-        <div class="column">
-          <img src="/img/DSC02073.JPG" alt="1" style="width:100%" onclick="myFunction(this);">
-        </div>
-        <div class="column">
-          <img src="/img/DSC02183.JPG" alt="2" style="width:100%" onclick="myFunction(this);">
-        </div>
-        <div class="column">
-          <img src="/img/DSC02196.JPG" alt="3" style="width:100%" onclick="myFunction(this);">
-        </div>
-                <div class="column">
-          <img src="/img/DSC02198.JPG" alt="4" style="width:100%" onclick="myFunction(this);">
-        </div>
-        <div class="column">
-          <img src="/img/DSC02206.JPG" alt="5" style="width:100%" onclick="myFunction(this);">
-        </div>
-        <div class="column">
-          <img src="/img/DSC02215.JPG" alt="6" style="width:100%" onclick="myFunction(this);">
-        </div>
-        <div class="column">
-          <img src="/img/DSC02216.JPG" alt="7" style="width:100%" onclick="myFunction(this);">
-        </div>
-        <div class="column">
-          <img src="/img/DSC02217.JPG" alt="8" style="width:100%" onclick="myFunction(this);">
-        </div>
-        <div class="column">
-          <img src="/img/DSC02226.JPG" alt="9" style="width:100%" onclick="myFunction(this);">
-        </div>
-        <div class="column">
-          <img src="/img/DSC02153.JPG" alt="10" style="width:100%" onclick="myFunction(this);">
-        </div>
-        <div class="column">
-          <img src="/img/DSC02155.JPG" alt="11" style="width:100%" onclick="myFunction(this);">
-        </div>
-        <div class="column">
-          <img src="/img/DSC02158.JPG" alt="12" style="width:100%" onclick="myFunction(this);">
-        </div>
 
-      </div>
-      
-      <div class="container">
-        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-        <img id="expandedImg" style="width:100%">
-        <div id="imgtext"></div>
-      </div>
-      
-      <script>
-      function myFunction(imgs) {
-        var expandImg = document.getElementById("expandedImg");
-        var imgText = document.getElementById("imgtext");
-        expandImg.src = imgs.src;
-        imgText.innerHTML = imgs.alt;
-        expandImg.parentElement.style.display = "block";
-      }
-      </script>
-      
-      </body>
-      </html>
-      
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery</title>
+</head>
+
+<body>
+
+  <!-- Slide Show -->
+  <section>
+    <img class="mySlides" src="/img/DSC02183.JPG" style="width:100%">
+    <img class="mySlides" src="/img/DSC02196.JPG" style="width:100%">
+    <img class="mySlides" src="/img/DSC02215.JPG" style="width:100%">
+  </section>
+
+  <section>
+    <img class="mySlides" src="/img/DSC02155.JPG" style="width:100%">
+    <img class="mySlides" src="/img/DSC02198.JPG" style="width:100%">
+    <img class="mySlides" src="/img/DSC02226.JPG" style="width:100%">
+  </section>
+
+
+
+  </div>
+  </div>
+</body>
+
+</html>
