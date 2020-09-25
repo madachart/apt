@@ -10,13 +10,13 @@ img{width: 100%; height: auto; opacity: 0.50%;}
         
 
 
-  footer{ text-align: center;
-background-color: lightsalmon; padding: 5px;
+  footer{ text-align: center; border: 5px; padding: 5px;
+background-color: lightsalmon;
 color: brown; font-style: italic; font-weight: bolder;
 font-family: 'Times New Roman', Times, serif;}
 
 .header { text-align: center; background-color: rgb(235, 202, 173);}
-.footer { border: 0px; padding: 5px; margin: 5px;}
+.footer { border: 5px; padding: 5px; margin: 5px;}
 
 }
 /* For mobile phones: */
