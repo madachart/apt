@@ -38,6 +38,7 @@ font-family: 'Times New Roman', Times, serif;}
 .header { text-align: center; background-color: rgb(235, 202, 173);}
 .footer { border: 5px; padding: 5px; margin: 5px; }
 
+
 }
 /* For mobile phones: */
 [class*="col-"] {
